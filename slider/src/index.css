@@ -252,3 +252,83 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+/* 
+==============
+PROJECT 
+*/
+
+.header {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.review-card {
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  background: var(--white);
+  position: relative;
+  padding: 2rem;
+}
+
+.review-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slick-slide img {
+  display: inline;
+}
+
+.name {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #8b5cf6;
+  padding: 1rem 0;
+}
+
+.title {
+  text-transform: capitalize;
+  padding-top: -0.5rem;
+  padding-bottom: 4rem;
+}
+
+.quote {
+  color: var(--grey-500);
+  line-height: 2;
+}
+
+.quote-icon {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #8b5cf6;
+}
+
+.quote-btn {
+  font-size: 1.5rem;
+  background: var(--grey-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  color: var(--white);
+  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.btn-left {
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+
+.btn-right {
+  position: absolute;
+  right: 0;
+  top: 250px;
+}

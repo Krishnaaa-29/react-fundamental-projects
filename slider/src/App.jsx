@@ -1,5 +1,11 @@
+import Carousal from "./Carousal";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <main>
+      <Carousal />
+    </main>
+  );
 }
 
 export default App;
