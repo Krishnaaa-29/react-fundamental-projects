@@ -131,3 +131,72 @@ ul {
   display: block;
   object-fit: cover;
 }
+
+/* 
+========PROJECT==========
+*/
+
+.main-container {
+  width: 80vw;
+  max-width: var(--max-width);
+  margin: 10rem auto;
+  /* background: red; */
+}
+
+.form-container {
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-label {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+.form-input {
+  background: var(--grey-300);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  font-size: 1.25rem;
+  /* height: 30px; */
+  padding: 5px;
+}
+
+.submit-btn {
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  text-transform: capitalize;
+  color: var(--white);
+  font-size: 1rem;
+  letter-spacing: var(--letterSpacing);
+  padding: 0.5rem;
+}
+
+.submit-btn:hover {
+  background: var(--primary-700);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.para-container {
+  margin-top: 4rem;
+}
+
+.para {
+  margin-bottom: 2rem;
+  /* letter-spacing: var(--letterSpacing); */
+  line-height: 2;
+}
