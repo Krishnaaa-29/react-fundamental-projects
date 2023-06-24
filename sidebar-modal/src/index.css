@@ -192,7 +192,7 @@ ul {
   top: 0;
   left: 0;
   background: var(--white);
-  max-width: var(--max-width);
+  max-width: 450px;
   width: 50vw;
   height: 100%;
 
@@ -291,7 +291,7 @@ ul {
   background: var(--white);
   width: 80vw;
   height: 30vh;
-  max-width: var(--max-width);
+  max-width: var(--fixed-width);
   border-radius: var(--borderRadius);
   position: relative;
 
