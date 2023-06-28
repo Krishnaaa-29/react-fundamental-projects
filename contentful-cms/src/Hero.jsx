@@ -5,12 +5,16 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-center">
         <div className="hero-title">
-          <h1>Contentful CMS</h1>
+          <h1>Hi, welcome to my site</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-            consequatur, ipsa nemo ex hic unde. Iste, itaque, perferendis
-            corrupti ab alias ea modi, error consequuntur ipsam fugit
-            exercitationem distinctio nam?
+            I am Krishna Kulshreshtha and I am a FrontEnd Developer in making.
+            In the website, I have listed some of the projects I made while I
+            was learning development. Each Project showcases different React
+            Features such as State management, Context API, Hooks such as
+            useState, useEffect, useReducer, some libraries like React Router,
+            React Query, etc. This is a simple layout and definitely just the
+            start. If you have any advices, do give it to me at the email id
+            given below. Meanwhile, Enjoy...
           </p>
         </div>
         <div className="img-container">
