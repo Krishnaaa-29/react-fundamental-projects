@@ -380,7 +380,7 @@ FOOTER
 .footer {
   background: var(--white);
   /* height: 5rem; */
-  max-width: 1800px;
+  max-width: 100%;
 }
 
 .footer-container {
