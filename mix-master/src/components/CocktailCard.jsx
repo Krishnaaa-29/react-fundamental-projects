@@ -20,7 +20,7 @@ const CocktailCard = ({ image, name, id, info, glass }) => {
 };
 
 const Wrapper = styled.article`
-  background: var(--white);
+  background: var(--cardColor);
   box-shadow: var(--shadow-2);
   transition: var(--transition);
   display: grid;

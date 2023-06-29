@@ -62,6 +62,17 @@ html {
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --cardColor: #ffffff;
+  /* dark mode colors */
+  --dark-mode-bg-color: #15202b;
+  --dark-mode-textColor: #ffffff;
+  --dark-mode-cardColor: #192734;
+}
+
+.dark-theme {
+  --backgroundColor: var(--dark-mode-bg-color);
+  --textColor: var(--dark-mode-textColor);
+  --cardColor: var(--dark-mode-cardColor);
 }
 
 body {
@@ -205,7 +216,7 @@ ul {
 .form {
   width: 100%;
   max-width: var(--fixed-width);
-  background: var(--white);
+  background: var(--cardColor);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
@@ -224,6 +235,7 @@ ul {
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
+  color: var(--textColor);
   border: 1px solid var(--grey-200);
 }
 

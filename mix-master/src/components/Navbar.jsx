@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { styled } from "styled-components";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
@@ -17,13 +18,14 @@ const Navbar = () => {
             NewsLetter
           </NavLink>
         </div>
+        <ThemeToggle />
       </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.nav`
-  background: var(--white);
+  background: var(--cardColor);
   .nav-center {
     width: var(--view-width);
     max-width: var(--max-width);
@@ -48,7 +50,7 @@ const Wrapper = styled.nav`
   }
 
   .nav-link {
-    color: var(--grey-900);
+    color: var(--textColor);
     padding: 0.5rem 0.5rem 0.5rem 0;
     transition: var(--transition);
     letter-spacing: 2px;

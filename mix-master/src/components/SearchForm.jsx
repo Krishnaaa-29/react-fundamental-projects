@@ -25,11 +25,13 @@ const SearchForm = ({ search }) => {
 const Wrapper = styled.article`
   margin-bottom: 6rem;
   .form {
+    background: var(--cardColor);
     display: grid;
     grid-template-columns: 1fr auto;
   }
 
   .form-input {
+    color: var(--textColor);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
