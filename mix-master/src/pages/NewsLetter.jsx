@@ -14,7 +14,7 @@ export const action = async ({ request }) => {
     return redirect("/");
   } catch (error) {
     console.log(error);
-    toast.error(error?.response?.data?.msg);
+    toast.error("Submit Button is not working right now");
     return error;
   }
 };
